@@ -122,7 +122,7 @@ Run the development server:
 bun dev
 \`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## Documentation
 
