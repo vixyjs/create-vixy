@@ -134,7 +134,7 @@ For more information about Vixy, visit [https://vixyjs.github.io/docs](https://v
     // Create src directory and index.ts
     mkdirSync(join(projectPath, "src"), { recursive: true });
 
-    const indexTs = `import { Vixy } from "vixy";
+    const indexTs = `import Vixy from "vixy";
 
 const app = new Vixy();
 
