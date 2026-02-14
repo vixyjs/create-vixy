@@ -142,7 +142,7 @@ app.get("/", (c) => {
   return c.res.json({ message: "Hello, Vixy!" });
 });
 
-export default app;
+app.listen()
 `;
 
     writeFileSync(join(projectPath, "src", "index.ts"), indexTs);
