@@ -1,6 +1,6 @@
 {
   "name": "create-vixy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Scaffolding tool for creating Vixy projects",
   "type": "module",
   "bin": {
