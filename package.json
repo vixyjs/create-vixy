@@ -1,0 +1,47 @@
+{
+  "name": "create-vixy",
+  "version": "0.1.0",
+  "description": "Scaffolding tool for creating Vixy projects",
+  "type": "module",
+  "bin": {
+    "create-vixy": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "bun run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vixyjs/create-vixy.git"
+  },
+  "homepage": "https://github.com/vixyjs/create-vixy#readme",
+  "bugs": {
+    "url": "https://github.com/vixyjs/create-vixy/issues"
+  },
+  "keywords": [
+    "vixy",
+    "create-vixy",
+    "scaffolding",
+    "framework",
+    "bun",
+    "typescript"
+  ],
+  "author": "Hisam Fahri",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.8.2",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
